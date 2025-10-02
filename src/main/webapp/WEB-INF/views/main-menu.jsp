@@ -9,5 +9,6 @@
     <hr />
     <br />
     <a href="showPlayerForm"> Search Player</a>
+    <a href="tournament"> Search Tournament</a>
   </body>
 </html>
