@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tennis Player DB</title>
+    <title>Main Menu</title>
   </head>
   <body>
-    <h2>Welcome to the tennis player database!</h2>
+    <h2>Spring MVC - Tennis Player Database</h2>
 
-    <hr />
-    <br />
+    <hr /><br />
     <a href="showPlayerForm"> Search Player</a>
+
+    <br /><br />
+    <a href="player/showPlayerForm"> Add Player Details</a>
+
+    <br /><br />
     <a href="tournament"> Search Tournament</a>
   </body>
 </html>
