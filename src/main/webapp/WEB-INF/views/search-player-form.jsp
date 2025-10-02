@@ -8,7 +8,7 @@
  <h2>Player Form</h2>
     <br>
 
- <form action="/processPlayerForm" >
+ <form action="/processPlayerForm" method="POST" >
     <label> Name: </label>
     <input type="text" name="playerName" placeholder="Enter your name"/>
     <input type="submit" value="Submit" />
