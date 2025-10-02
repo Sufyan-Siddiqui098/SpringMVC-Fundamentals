@@ -8,6 +8,6 @@
     <hr />
 
     <br /><br />
-    Player name : ${param.playerName}
+    Player name : ${name}
   </body>
 </html>

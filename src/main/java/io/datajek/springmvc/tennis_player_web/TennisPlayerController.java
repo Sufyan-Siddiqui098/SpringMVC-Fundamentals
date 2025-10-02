@@ -1,6 +1,8 @@
 package io.datajek.springmvc.tennis_player_web;
 
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -18,7 +20,9 @@ public class TennisPlayerController {
     }
 
     @RequestMapping(value = "/processPlayerForm")
-    public String processPlayerForm(){
+    public String processPlayerForm(HttpServletRequest request, Model model){
+        String pName= request.getParameter("playerName");
+        model.addAttribute("name", pName);
         return "player-detail";
     }
 }
